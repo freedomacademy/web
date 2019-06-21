@@ -344,14 +344,14 @@ header .navbar {
     margin-top: 40px;
 }
 #counter {
-    background: url(../img/counter-bg.jpg) no-repeat;
+    /*background: url(../img/counter-bg.jpg) no-repeat;*/
     background-size: cover;
     background-position: center;
     position: relative;
     text-align: center;
     padding: 100px 0;
 }
-#counter:before {
+/*#counter:before {
     content: "";
     position: absolute;
     top: 0;
@@ -359,7 +359,7 @@ header .navbar {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.72);
-}
+}*/
 #counter .title {
     position: relative;
 }
@@ -1306,3 +1306,114 @@ footer p {
 
 
 
+
+.choose {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    width: 100%;
+    float: left;
+}
+.choose .half {
+    width: 50%;
+    display: inline-block;
+    background: #000;
+}
+@media screen and (max-width: 768px) {
+    .choose .half {
+        width: 100%;
+    }
+}
+
+
+.features-wrap {
+    padding: 4em;
+}
+@media screen and (max-width: 768px) {
+    .features-wrap {
+        padding: 1em;
+    }
+}
+.features-wrap h2, .features-wrap h3, .features-wrap p {
+    color: #fff !important;
+}
+.features-wrap p {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.features {
+    position: relative;
+    margin-bottom: 60px;
+}
+.features h3 {
+    font-size: 20px;
+}
+.features .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: table;
+    width: 80px;
+    height: 80px;
+    background: #34b8c0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.features .icon i {
+    display: table-cell;
+    vertical-align: middle;
+    height: 80px;
+    font-size: 30px;
+    color: #fff;
+}
+.features .desc {
+    padding-left: 100px;
+}
+
+
+.img-bg, .img-user {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.qbootstrap-heading {
+    margin-bottom: 5em;
+}
+.qbootstrap-heading h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #000;
+    position: relative;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .qbootstrap-heading h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 100%;
+    width: 100%;
+    top: -50%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    left: -100%;
+  }
+}
