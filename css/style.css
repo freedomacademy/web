@@ -391,37 +391,37 @@ header .navbar {
     padding-top: 20px;
 }
 #cursos {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 #cursos .block .recent-work-mixMenu {
-    padding-bottom: 40px;
-    text-align: center;
+  padding-bottom: 40px;
+  text-align: center;
 }
 #cursos .block .recent-work-mixMenu ul li {
-    display: inline-block;
-    padding: 0;
+  display: inline-block;
+  padding: 0;
 }
 #cursos .block .recent-work-mixMenu ul li button {
-    background: none;
-    border: 0;
-    font-size: 15px;
-    color: #474747;
-    margin: 0 20px;
-    transition: 0.2s;
-    text-transform: uppercase;
+  background: none;
+  border: 0;
+  font-size: 15px;
+  color: #474747;
+  margin: 0 20px;
+  transition: 0.2s;
+  text-transform: uppercase;
 }
 #cursos .block .recent-work-mixMenu ul li button:hover {
-    color: #80d6a3;
+  color: #80d6a3;
 }
 #cursos .block .recent-work-mixMenu ul li button:focus {
-    outline: 0;
+  outline: 0;
 }
 #cursos .block .recent-work-mixMenu ul li .active {
-    color: #80d6a3;
+  color: #80d6a3;
 }
 #cursos .block .recent-work-pic ul li {
-    margin-bottom: 30px;
-    position: relative;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 #cursos .block .recent-work-pic ul li .overlay h3,
@@ -430,36 +430,36 @@ header .navbar {
 }
 
 #cursos .block .recent-work-pic ul li .overlay {
-    position: absolute;
+  position: absolute;
     top: 13px;
     left: 20px;
     bottom: 13px;
     right: 20px;
-    background: rgba(255,255,255, 0.45);
-    text-align: center;
+    background: rgba(128,214,163, 0.45);
+  text-align: center;
 }
-
+  
 #cursos .block .recent-work-pic ul li .overlay h3 {
-    bottom: 30%;
-    left: 50%;
-    text-transform: uppercase;
-    font-weight: 400;
-    width: 100%;
-    position: absolute;
-    transform: translateX(-50%);
+  bottom: 30%;
+  left: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 100%;
+  position: absolute;
+  transform: translateX(-50%);
 }
 #cursos .block .recent-work-pic ul li .overlay i {
-    top: 30%;
-    left: 50%;
-    font-size: 50px;
-    position: absolute;
-    transform: translate(-50%, 50%);
+  top: 30%;
+  left: 50%;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-50%, 50%);
 }
 #cursos .block .recent-work-pic ul li .overlay .overlay-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #play-video {
     padding: 105px 0;
@@ -1416,4 +1416,18 @@ footer p {
     width: 100%;
     left: -100%;
   }
+}
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.contact-social .fa-youtube {
+    color: red;
 }
