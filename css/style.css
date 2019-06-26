@@ -78,7 +78,7 @@ a:active {
 }
 .title {
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 .title h2 {
     color: #333;
@@ -663,7 +663,7 @@ header .navbar {
 }
 #pricing-table {
     padding: 100px 0 127px;
-    background: #80d6a3;
+    background: #949494;
 }
 #pricing-table .title h2,
 #pricing-table .title p {
