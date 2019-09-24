@@ -5,13 +5,13 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* ==================
  *
- *google fonts 
+ *google fonts
  *
  *===================*/
 
 /* ==================
  *
- *var section 
+ *var section
  *
  *===================*/
 /*****  font size  ******/
@@ -62,7 +62,7 @@ a:active {
 }
 /* ==================
  *
- *  Global Class 
+ *  Global Class
  *
  *===================*/
 .btn {
@@ -151,7 +151,7 @@ a:active {
 }
 /* ==================
  *
- *  section Class 
+ *  section Class
  *
  *===================*/
 /* header style */
@@ -333,7 +333,7 @@ header .navbar {
     font-weight: 400;
 }
 #features .feature-block p {
-    font-size: 15px;
+    /* font-size: 15px; */
     color: #888;
     line-height: 24px;
     font-weight: 300;
@@ -438,7 +438,7 @@ header .navbar {
     background: rgba(128,214,163, 0.45);
   text-align: center;
 }
-  
+
 #cursos .block .recent-work-pic ul li .overlay h3 {
   bottom: 30%;
   left: 50%;
@@ -873,7 +873,7 @@ footer p {
 }
 
 #blog-post  .content {
-    padding:30px 25px; 
+    padding:30px 25px;
     text-align: center;
 }
 #blog-post .content h4 {
@@ -886,7 +886,7 @@ footer p {
     color: #333;
 }
 #blog-post .content h4 a:hover {
-    color: #80d6a3; 
+    color: #80d6a3;
 }
 #blog-post .content h4::before {
     content: '';
