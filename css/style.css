@@ -426,43 +426,6 @@ header .navbar {
   position: relative;
 }
 
-#cursos .block .recent-work-pic ul li .overlay h3,
-#cursos .block .recent-work-pic ul li .overlay i {
-    color: #202322;
-}
-
-#cursos .block .recent-work-pic ul li .overlay {
-  position: absolute;
-    top: 13px;
-    left: 20px;
-    bottom: 13px;
-    right: 20px;
-    background: rgba(128,214,163, 0.45);
-  text-align: center;
-}
-
-#cursos .block .recent-work-pic ul li .overlay h3 {
-  bottom: 30%;
-  left: 50%;
-  text-transform: uppercase;
-  font-weight: 400;
-  width: 100%;
-  position: absolute;
-  transform: translateX(-50%);
-}
-#cursos .block .recent-work-pic ul li .overlay i {
-  top: 30%;
-  left: 50%;
-  font-size: 50px;
-  position: absolute;
-  transform: translate(-50%, 50%);
-}
-#cursos .block .recent-work-pic ul li .overlay .overlay-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 #videos {
     padding: 105px 0;
     background: url("../img/new-latter.jpg") no-repeat;
