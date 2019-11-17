@@ -463,14 +463,14 @@ header .navbar {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#play-video {
+#videos {
     padding: 105px 0;
     background: url("../img/new-latter.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-#play-video:before {
+#videos:before {
     content: "";
     position: absolute;
     top: 0;
@@ -479,10 +479,10 @@ header .navbar {
     height: 100%;
     background: rgba(32, 35, 34, 0.7);
 }
-#play-video .block {
+#videos .block {
     text-align: center;
 }
-#play-video .block h2 {
+#videos .block h2 {
     color: #fff;
     padding-bottom: 5px;
     font-size: 24px;
@@ -491,7 +491,7 @@ header .navbar {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
 }
-#play-video .block p {
+#videos .block p {
     text-align: center;
     color: #dfdfdf;
     padding-bottom: 30px;
@@ -500,7 +500,7 @@ header .navbar {
     line-height: 22px;
     margin-top: 10px;
 }
-#play-video .block .button {
+#videos .block .button {
     position: relative;
     width: 100px;
     height: 50px;
@@ -516,7 +516,7 @@ header .navbar {
     font-size: 30px;
     margin-top: 10px;
 }
-#play-video .block .button:hover {
+#videos .block .button:hover {
     color: #424242;
     border-color: red;
 }
@@ -737,12 +737,12 @@ header .navbar {
     -webkit-transform: translate3d(0, 0px, 0);
     transform: translate3d(0, 0px, 0);
 }
-#contact-form {
+#contacto {
     padding: 100px 0;
     background:#f9f9f9;
 }
-#contact-form form input,
-#contact-form form textarea {
+#contacto form input,
+#contacto form textarea {
     padding: 24px 20px 0;
     border-color: #80d6a3;
     border-radius: 5px;
@@ -750,16 +750,16 @@ header .navbar {
     color: #97a0af;
     box-shadow: none;
 }
-#contact-form form input {
+#contacto form input {
     margin-bottom: 15px;
     padding: 24px 27px;
 }
-#contact-form form textarea {
+#contacto form textarea {
     margin-bottom: 28px;
     min-height: 172px;
     resize: none;
 }
-#contact-form form button {
+#contacto form button {
     float: right;
     color: #fff;
     font-size: 16px;
@@ -770,7 +770,7 @@ header .navbar {
     border-color: transparent;
     transition: 0.3s;
 }
-#contact-form form button:hover {
+#contacto form button:hover {
     background: none;
     color: #80d6a3;
     border-color: #80d6a3;
