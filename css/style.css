@@ -226,7 +226,7 @@ header .navbar {
 #banner {
     background: url('../img/banner.jpg');
     background-size: cover;
-    padding: 250px 0;
+    padding: 300px 0;
     position: relative;
 }
 #banner:before {
@@ -987,4 +987,18 @@ footer p {
 
 .contact-social .fa-youtube {
     color: red;
+}
+
+.img-boxes-resize {
+    
+    max-height: 450px; 
+    width: auto; 
+
+}
+
+.img-logo-resize {
+    
+    max-height: 100px; 
+    width: auto; 
+
 }
