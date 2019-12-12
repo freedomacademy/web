@@ -392,18 +392,18 @@ header .navbar {
     color: #fff;
     padding-top: 20px;
 }
-#cursos {
+#clases {
   padding: 100px 0;
 }
-#cursos .block .recent-work-mixMenu {
+#clases .block .recent-work-mixMenu {
   padding-bottom: 40px;
   text-align: center;
 }
-#cursos .block .recent-work-mixMenu ul li {
+#clases .block .recent-work-mixMenu ul li {
   display: inline-block;
   padding: 0;
 }
-#cursos .block .recent-work-mixMenu ul li button {
+#clases .block .recent-work-mixMenu ul li button {
   background: none;
   border: 0;
   font-size: 15px;
@@ -412,16 +412,16 @@ header .navbar {
   transition: 0.2s;
   text-transform: uppercase;
 }
-#cursos .block .recent-work-mixMenu ul li button:hover {
+#clases .block .recent-work-mixMenu ul li button:hover {
   color: #80d6a3;
 }
-#cursos .block .recent-work-mixMenu ul li button:focus {
+#clases .block .recent-work-mixMenu ul li button:focus {
   outline: 0;
 }
-#cursos .block .recent-work-mixMenu ul li .active {
+#clases .block .recent-work-mixMenu ul li .active {
   color: #80d6a3;
 }
-#cursos .block .recent-work-pic ul li {
+#clases .block .recent-work-pic ul li {
   margin-bottom: 30px;
   position: relative;
 }
